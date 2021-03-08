@@ -6,4 +6,4 @@
 
 ### Report : https://docs.google.com/document/d/1hAGRCU7HlCYghMOS7ZyUvNLKndhP0zWIsXU1hdvAVsI/edit?usp=sharing
 
-![alt text](images/main.png)
+![alt text](main.png)
