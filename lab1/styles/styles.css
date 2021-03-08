@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+	text-shadow: #666;
+}
+.navbar{
+	background:rgb(255, 135, 65);
+}
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: rgb(255, 169, 41);
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.header{
+	position: relative;
+	background-image: url('../images/background.png');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 25%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+	color:rgb(201, 44, 17);
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+
+
+.para{
+    margin-left: 1%;
+	margin-right: 5%;
+	display: flex;
+	flex-flow: column;
+}
+#about {
+    display: flex;
+}
+.side {
+    position: relative;
+    width: 40%;
+	background-color: #fff;
+	margin-top: 15%;
+	height: auto;
+}
+.about_main{
+	background-color: #e9ecef;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-decoration: rgb(255, 169, 41);
+}
+
+.b{
+	justify-content: center;
+}
+h4{
+	text-align: center;
+}
+
+h5{
+	text-align: left;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+#nobel, #relatives{
+	margin-top: 4%;
+	padding-left: 0;
+}
+.photo{
+    max-width: 20%;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.par_with_photo{
+display: flex;
+}
+#par_next_to_photo{
+    margin: 4%;
+} 
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color:rgb(255, 164, 44); 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:rgb(255, 169, 41);
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
+
+/*blog style*/
+#learn_more{
+	margin-top: 10%;
+	justify-content: center;
+	border-color: rgb(255, 169, 41);
+	color: rgb(255, 169, 41);
+}
+.blog{
+	margin: 4em 0;
+	position: relative;	
+}
+.blog h1, .about_main h1{
+	color:rgb(255, 169, 41);
+	margin: 2em;	
+}
+#tux, #git, #nvidia{
+	margin-top: 5%;
+	max-width: 65%;
+	height: auto;
+	justify-content: center;
+	margin-left: 17%;
+}
+
+.blog .card{
+	box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+	width: 100%;
+	height: 12em;
+}
+.blog .card-title{
+	color:rgb(255, 169, 41);
+	 
+}
+.blog .card-body{
+	padding: 1em;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: rgb(255, 169, 41);
+    border-color: rgb(255, 169, 41);
+}
+
+.footer{
+	text-align: right;
+	margin-right: 5%;
+	color: rgb(255, 169, 41);
+}
+#facts{
+	padding-top: 7%;
+	background-color: #f2f3f5;
+}

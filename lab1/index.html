@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Jobs</title>
+      <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+	  <script  src="js/jquery-3.4.1.min.js" ></script>
+        <script>
+          jQuery(document).ready(function($){
+              $("#top-header").load("header.html");
+              $("#footer").load("footer.html");
+          });
+      </script>
+</head>
+<body>
+	<div id="top-header"></div>
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+  	<h1>
+      My Blog
+	</h1>
+  		<div class="par_with_photo">
+        <p id=par_next_to_photo>Hello, I am Steve Jobs, 
+			An American business magnate, industrial designer, investor, and media proprietor. 
+			A pioneer of the personal computer revolution of the 1970s and 1980s, 
+			along with Apple co-founder Steve Wozniak.
+        </p>
+		<img class="photo" src="images/jobs.jpeg" alt="programmer photo">
+
+      </div>
+	  <div class="d-flex justify-content-center">
+		<button class="btn btn-outline-danger btn-lg" onClick='location.href="#about_main"'>Let's get started</button>   
+	  </div>
+  </div>
+
+   </div>
+  
+</header>
+<div class="about_main" id="about_main">
+	<br><br>
+	<br><br>
+	<br><br>
+  <h1 class="jumbotron text-center"> Facts about myself </h1>  
+    <div class="container b centered">
+		<div class="row centered">
+
+		  <div class="col-lg-4">
+			<i class="fa fa-heart"></i>
+			<h4>Born</h4>
+			<p class=info_about> Stephen Jobs was born in San Francisco in 1955, where he was adopted by Paul and Clara Job. They named him Stephen Paul. Jobs's biological parents are Syrian Abdulfattah Jandali and American Joan Simpson.	</p>
+		  </div>
+		  <div class="col-lg-4">
+			<i class="fa fa-laptop"></i>
+			<h4>Pixar is mine.</h4>
+			<p>In 1986, Jobs bought The Graphics Group, now Pixar, for $ 5 million. Following Disney's purchase of Pixar, Jobs became the largest private shareholder in The Walt Disney Company with a 7% stake.</p>
+		  </div>
+		  <div class="col-lg-4">
+			<i class="fa fa-trophy"></i>
+			<h4>Bye, Apple</h4>
+			<p>On August 24, 2011, Jobs announced his resignation as Apple CEO.</p>
+		  </div>
+		</div>
+		<div class="row centered" id="learn_more"> 
+			<button class="btn btn-outline-warning btn-lg"  onClick='location.href="about.html"'>Learn more</button>   
+		</div>
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+</div>
+</div>
+<!-- Posts section -->
+<div class="blog" id="blog">
+	<div class="container">
+	<h1 class="text-center">Blog</h1>
+	<br>
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/apple.png" class="img-fluid" id="tux" alt="linux kernel">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">Apple</h4>
+						<p class="card-text">
+							
+							Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="https://www.apple.com/" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/pixar.png" class="img-fluid" id="git" alt="git">
+					</div>
+					
+					<div class="card-body">
+					   <h4 class="card-title">Pixar</h4>
+						<p class="card-text">
+							
+							As is the case now, Pixar in 1986 was staffed by a mix of techies and artists who hoped to create computer-animated films. However, since the technology to do so simply wasn't there yet.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="https://www.pixar.com/careers-at-pixar" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="images/iphone.jpg" class="img-fluid" id="nvidia" alt="nvidia">
+					</div>
+					
+					<div class="card-body">
+					<h4 class="card-title">First IPhone</h4>
+						<p class="card-text">
+							
+							he iPhone is the first smartphone designed and marketed by Apple Inc. After years of rumors and speculation, it was officially announced in January 2007, and was released in the United States in June.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="https://applesn.info/devices/iphone/iphone-2g/" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+	</div>
+	<br><br>
+</div>
+
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h1>Get in Touch</h1>	
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+				   <div class="form-group">
+				   	 <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name">
+				   </div>
+				   <div class="form-group">
+				   	 <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+				   </div>
+				   <div class="form-group">
+				   	 <textarea class="form-control form-control-lg" placeholder="Any remarks?"></textarea>
+				   </div>
+				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="send">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<div id="footer"></div>
+<!-- add Javasscript file from js file -->
+<script  src="js/jquery.min.js"></script>
+<script  src="js/bootstrap.min.js"></script>
+<script  src='js/main.js'></script>
+
+</body>
+</html>
