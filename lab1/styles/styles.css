@@ -31,6 +31,19 @@ html,h1,h2,h3,h4,h5,h6,a{
   background:#fff !important;
 }
 
+.body-mail{
+	background-image: url('../images/backlog.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.body-prof{
+	background-image: url('../images/prof-back.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+
 .header{
 	position: relative;
 	background-image: url('../images/background.png');
@@ -62,7 +75,9 @@ html,h1,h2,h3,h4,h5,h6,a{
 	line-height: 1.5;
 }
 
-
+.mb-5{
+	margin-top: 50%;
+}
 .para{
     margin-left: 1%;
 	margin-right: 5%;
