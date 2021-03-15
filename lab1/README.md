@@ -4,6 +4,10 @@
 
 ### Made by Ivanenko Alexander KV-82
 
-### Report : https://docs.google.com/document/d/1hAGRCU7HlCYghMOS7ZyUvNLKndhP0zWIsXU1hdvAVsI/edit?usp=sharing
+### Report : https://docs.google.com/document/d/1vWsvKQW1eQuLvHMQRXIDFLvMS3BEGct1m6CtDG0xHzU/edit?usp=sharing
 
 ![alt text](main.png)
+
+![alt text](login.png)
+
+![alt text](profile.png)
