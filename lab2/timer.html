@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>To Do App in Vanilla JS</title>
+    <script type="module" src="js/main.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+</head>
+<body id="page">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+     <img class="mb-2 mr-2 border-right border-bottom border-top border-left" src="img/timer.png" alt="" width="64" height="64">
+         <h5 class="my-0 mr-md-auto font-weight-normal">Your Timer</h5>
+           <a class="btn btn-outline" href="signup.html">Sign up</a>
+           <a class="btn btn-outline-primary" href="index.html">Regist</a>
+           <a class="btn btn-outline-primary" href="profile.html">Profile</a>
+   </div>
+ </header>
+ 
+    <div id="container">
+      <br></br>
+      <h1>Your Timer</h1>
+        <div id="clock">
+          <div>
+            <h1 id="timer">00:00 </h1>
+          </div>
+          <div id="input">
+            <form id="title_form">
+            <!-- <input type="text",placeholder="Type name of activity", id="title"> -->
+            <!-- <button id="submit">Submit</button> -->
+              <div class="input-group input-group-lg">
+                <br>
+                <input id="title" type="text" class="form-control" aria-describedby="inputGroup-sizing-sm", placeholder="Name of the activity">
+              </div>
+          </form>
+          </div>
+          <br>
+          <div id="save_time">
+            <div class="input-group mb-3">
+                <div class="input-group-text">
+                  <input id ="save" type="checkbox" aria-label="Checkbox for following text input">
+                  <label for="save">Save the time of begin and end</label>  
+                </div>
+            </div>
+          </div>
+          <br>
+          <div id="clock-actions">
+
+            <button id="start" class="btn btn-primary">Start</button>
+            <button id="pause" class="btn btn-primary">Pause</button>
+            <button id="stop" class="btn btn-primary">Stop</button>
+          </div>
+          <br>
+          <div>
+            <h4>Enter date of choose another option</h4>
+          </div>
+          <div class="input-group mb-3" style="display:flex; flex-direction: row;">
+            <input id ="choose", type="text" class="form-control", placeholder="input days ex 01/11-02/11">
+
+            <div class="input-group-prepend">
+              <button id="show-ses" class="btn btn-outline-secondary" type="button" id="button-addon1">Show session</button>
+            </div>
+          </div>
+          
+          <div id="show-actions", class="btn-group" >
+
+            <button id="day" class="btn btn-primary">Day</button>
+            <button id="week" class="btn btn-primary">Week</button>
+            <button id="month" class="btn btn-primary">Month</button>
+            <button id="show-all" class="btn btn-primary">Show all the session</button> 
+
+          </div>
+    <div id="row">
+      <br>
+      <button id="sum", type="button" class="btn btn-primary btn-lg">Get sum time</button>
+      <h2 id="sumText"> </h2>
+    </div>
+        <div>
+            <h3  style="text-align: center;">Your Sessions </h3> 
+            <div id="info">
+              <div id="to-do">
+              </div>
+            </div>
+        </div>
+        <div id="row">
+          <br>
+          <div id="sumTime"> </div>
+        </div>
+      </div>
+    
+</body>
+</html>

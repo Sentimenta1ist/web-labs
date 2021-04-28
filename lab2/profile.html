@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+	<link rel="stylesheet" href="styles/styles.css">
+	<title> MySite - Profile </title>
+</head>
+<body>
+	<header>
+		 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+			<img class="mb-2 mr-2 border-right border-bottom border-top border-left" src="img/timer.png" alt="" width="64" height="64">
+      		<h5 class="my-0 mr-md-auto font-weight-normal">SiteName</h5>
+      		<nav class="my-2 my-md-0 mr-md-3">
+        		<a class="p-2 text-dark" href="info.html">Info</a>
+                <a class="p-2 text-dark" href="timer.html">Pomodoro Timer</a>
+      		</nav>
+			  <button class="btn btn-outline-primary" id="logout">Logout</button>
+		</div>
+	</header>
+					<div class="col-12 mt-5">
+						<img class ="mb-4 mx-auto " src="img/timer.png" alt=""width="256" height="256">
+						<h3 class=" my-0 mr-md-auto mb-5 font-weight-normal"> Your Profile</h3>
+					</div>
+				<div class="table-responsive">
+    			<table class="table">
+    				<caption>Profile info</caption>
+    			<thead class="thead-dark">
+    			<tr>
+    				<th scope="col">Name</th>
+    				<th scope="col">Surname </th>
+    				<th scope="col">Mail</th>
+    				<th scope="col">Password</th>
+    			</tr>    					
+    			</thead>
+    			<tbody id="profile">
+    			</tbody>
+    			</table>
+    			</div>
+
+				<script async src="js/controller/redirIfNotAuth.js"></script>
+				<script defer src="js/controller/logout.js"></script>
+				<script defer type="module" src="js/controller/profile.js"></script>
+</body>
+</html>
