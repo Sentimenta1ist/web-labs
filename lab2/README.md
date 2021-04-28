@@ -1,6 +1,6 @@
 # Timer 
 # Лабораторна робота № 2 
-## Виконала студентка групи КВ-72 
-## Дорош Карина
-## Варіант 4
-![](https://github.com/Janengh69/web-design/blob/master/lab2/screeshots/timer.png)
+## Виконав студент КВ-82 
+## Iваненко О.А.
+
+![](https://github.com/Sentimenta1ist/Web-design/tree/main/lab2/timer.png)
