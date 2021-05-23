@@ -1,0 +1,8 @@
+{
+  "customerName": "POC",
+  "projectName": "PdfGallery",
+  "mergeWith": [
+    "pack://roundRecipes:,,,Recipes/Recipes/Recipes.csproj;Round/v02/roundcli.json"
+  ],
+  "recipes": []
+}

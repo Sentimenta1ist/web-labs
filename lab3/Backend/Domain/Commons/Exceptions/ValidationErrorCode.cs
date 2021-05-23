@@ -1,0 +1,29 @@
+﻿namespace Elfo.POC.PdfGallery.Domain
+{
+	public enum ValidationErrorCode
+    {
+		EmptySystemGroupName,
+		InvalidSystemGroupNameLength,
+		EmptyIdUser,
+		EmptyUsername,
+		EmptyPassword,
+		EmptyLanguageCode,
+		EmptyCultureCode,
+		EmptyFirstName,
+		EmptyLastName,
+		EmptyIdGroup,
+		UserGroupAssociationAlreadyExists,
+		UsernameAlreadyExists,
+		UserDoesNotExist,
+		GroupDoesNotExist,
+        GroupAlreadyExistsWithName,
+        EmptyPermission,
+		UserPermissionAssociationAlreadyExists,
+		GroupPermissionAssociationAlreadyExists,
+		InvalidUserEmail,
+		InvalidUsernameLength,
+		InvalidLanguageCodeLength,
+		InvalidCultureCodeLength,
+		GroupShouldHaveAtLeastOnePermission
+	}
+}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Elfo.POC.PdfGallery.Domain</AssemblyName>
+    <RootNamespace>Elfo.POC.PdfGallery.Domain</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Include="..\Assembly\AssemblyInfo.cs" Link="Properties\AssemblyInfo.cs" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elfo.Round.Exceptions" Version="0.1.0" />
+    <PackageReference Include="Elfo.Round.WriteCycle.NHibernate" Version="2.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

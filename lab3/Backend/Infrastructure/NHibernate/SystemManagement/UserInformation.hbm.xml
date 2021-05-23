@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Elfo.POC.PdfGallery.Domain.SystemManagement" assembly="Elfo.POC.PdfGallery.Domain" schema="dbo">
+  <class name="UserInformation" table="userInformations_tb">
+    <id name="Id" column="idUser" type="Elfo.POC.PdfGallery.Infrastructure.NHibernate.SystemManagement.SystemUserIDType, Elfo.POC.PdfGallery.Infrastructure">
+      <generator class="foreign" >
+        <param name="property">User</param>
+      </generator>
+    </id>
+
+    <one-to-one name="User" class="SystemUser" constrained="true"/>
+
+    <property name="TelephoneNumber" column="telephoneNumber" />
+  </class>
+</hibernate-mapping>
