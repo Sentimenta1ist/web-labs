@@ -29,9 +29,6 @@ cd lab2 && python3 -m http.server 8000     # open http://localhost:8000/index.ht
 
 `lab3` was not re-tested: it needs the proprietary `Elfo.Round.*` NuGet packages, the `@round/*` npm packages and SQL Server, which are not public. Based on the project files: `dotnet run` in `lab3/Backend/Api`, `npm install && npm run serve` in `lab3/UI`.
 
-## Reports
-
-Lab reports are Google Docs, linked from `lab1/README.md`, `lab2/README.md` and `lab3/Readme.md`.
 
 ## Note
 
