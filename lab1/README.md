@@ -2,7 +2,6 @@
 
 ## Web site about Jobs.
 
-### Made by Ivanenko Alexander KV-82
 
 ### Report : https://docs.google.com/document/d/1vWsvKQW1eQuLvHMQRXIDFLvMS3BEGct1m6CtDG0xHzU/edit?usp=sharing
 
